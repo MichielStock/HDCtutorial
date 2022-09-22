@@ -63,7 +63,8 @@ To build a HDC system we need the following building blocks:
 const N = 10_000
 
 # ╔═╡ 0424b37b-64f6-48c6-8e61-85b6e62fc93c
-md"""### Generating hyperdimensional vectors
+md"""
+### Generating hyperdimensional vectors
 
 Hyperdimensional vectors are nothing more than vectors of a very high dimension. The dimensionality should be sufficiently large that one can comfortably store all the concepts of the system of interest. For our system to be robust, the space of vectors should also be large enough that *a randomly-drawn vector is almost surely unrelated to meaningful vectors*. In this notebook, we work with a dimensionality of $N =$ $N.
 """
